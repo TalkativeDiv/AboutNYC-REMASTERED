@@ -11,14 +11,14 @@ html {
 }
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   outline: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 a {
-  color: #fa5252;
+  color: #562fbe;
 }
 
 .repo {
@@ -26,13 +26,7 @@ a {
 }
 
 #header {
-  color: #d40229;
-}
-
-#top {
-  display: grid;
-  align-items: center;
-  justify-content: center;
+  color: #562fbe;
 }
 
 df-messenger {
@@ -70,6 +64,8 @@ img {
 
 #time_is_link {
   font-size: 36px;
+  color: #562fbe;
+  text-decoration: none;
 }
 
 #New_York_z161 {

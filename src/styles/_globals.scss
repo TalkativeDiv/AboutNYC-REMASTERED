@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 
 html {
   font-size: 100%;
@@ -12,14 +11,14 @@ html {
   box-sizing: inherit;
 }
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   outline: none;
   box-shadow: 0 0 20px $shadow;
 }
 
 a {
-  color: $red;
+  color: $purple;
 }
 
 .repo {
@@ -27,11 +26,8 @@ a {
 }
 
 #header {
-  color: $darkRed;
+  color: $purple;
 }
 
-#top{
-   display: grid;
-   align-items: center;
-   justify-content: center;
-}
+
+
