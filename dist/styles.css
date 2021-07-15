@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -11,7 +11,7 @@ html {
 }
 
 * {
-  font-family: "Varela Round", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   outline: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -66,4 +66,40 @@ img {
   height: 500px;
   object-fit: cover;
   object-position: center;
+}
+
+#time_is_link {
+  font-size: 36px;
+}
+
+#New_York_z161 {
+  font-size: 36px;
+  color: #202020;
+}
+
+.timeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.widgetContainer {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.headerContainer {
+  object-fit: cover;
 }

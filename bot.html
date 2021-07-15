@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bot</title>
+    <link rel="stylesheet" href="dist/styles.css" />
+  </head>
+  <body>
+       <div class="timeContainer">
+         <div class="headerContainer">
+          <a href="https://time.is/New_York" id="time_is_link" rel="nofollow" style="font-size:36px;color:#fa5252">Time in New York:</a>
+         </div>
+         <div class="widgetContainer">
+          <span id="New_York_z161"></span>
+         </div>
+        <script src="//widget.time.is/t.js"></script>
+    <script
+      src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"
+      defer
+    ></script>
+    <df-messenger
+      chat-icon="src/assets/info.svg"
+      intent="WELCOME"
+      chat-title="AboutNYC"
+      agent-id="9ce020da-c275-44fa-a314-8664665cefd6"
+      language-code="en"
+    ></df-messenger>
+    <script src="src/scripts/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+time_is_widget.init({New_York_z161:{template:"TIME<br>DATE", time_format:"12hours:minutes:secondsAMPM", date_format:"dayname, monthname dnum, year"}});

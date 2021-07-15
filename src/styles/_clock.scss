@@ -1,0 +1,35 @@
+#time_is_link {
+  font-size: 36px;
+}
+
+#New_York_z161 {
+  font-size: 36px;
+  color: #202020;
+}
+
+.timeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid $shadow;
+  border-radius: 10px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.widgetContainer {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.headerContainer {
+  object-fit: cover;
+}
