@@ -17,15 +17,6 @@ html {
   box-shadow: 0 0 20px $shadow;
 }
 
-td,
-thead,
-th,
-td,
-center,
-#header {
-  box-shadow: none;
-}
-
 a {
   color: $red;
 }
@@ -36,4 +27,10 @@ a {
 
 #header {
   color: $darkRed;
+}
+
+#top{
+   display: grid;
+   align-items: center;
+   justify-content: center;
 }
